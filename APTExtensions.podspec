@@ -8,7 +8,7 @@ Useful extensions for UIView, String etc.
                        DESC
 
   s.homepage         = 'https://github.com/rishadappat/APTExtensions'
-  s.license          = { :type => 'GNU', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rishad Appat' => 'rishadappat@gmail.com' }
   s.source           = { :git => 'https://github.com/rishadappat/APTExtensions.git', :tag => "#{s.version}" }
 
