@@ -1,7 +1,7 @@
 # APTExtensions
 Useful extensions for swift
 
-# Installation Guide for APTWebservice
+# Installation Guide for APTExtensions
 
 - Add the following to your Podfile:
 
