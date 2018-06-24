@@ -12,6 +12,7 @@
 		E678A17E20D8D24C0059C758 /* APTTextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E678A17A20D8D24C0059C758 /* APTTextFieldExtension.swift */; };
 		E678A17F20D8D24C0059C758 /* APTColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E678A17B20D8D24C0059C758 /* APTColorExtension.swift */; };
 		E678A18020D8D24C0059C758 /* APTViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E678A17C20D8D24C0059C758 /* APTViewExtension.swift */; };
+		E678A18820DF5FA00059C758 /* APTImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E678A18720DF5FA00059C758 /* APTImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E678A17A20D8D24C0059C758 /* APTTextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APTTextFieldExtension.swift; sourceTree = "<group>"; };
 		E678A17B20D8D24C0059C758 /* APTColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APTColorExtension.swift; sourceTree = "<group>"; };
 		E678A17C20D8D24C0059C758 /* APTViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APTViewExtension.swift; sourceTree = "<group>"; };
+		E678A18720DF5FA00059C758 /* APTImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APTImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				E678A17920D8D24C0059C758 /* APTStringExtension.swift */,
 				E678A17A20D8D24C0059C758 /* APTTextFieldExtension.swift */,
 				E678A17C20D8D24C0059C758 /* APTViewExtension.swift */,
+				E678A18720DF5FA00059C758 /* APTImageExtension.swift */,
 				E678A17120D8D2390059C758 /* APTExtensions.h */,
 				E678A17220D8D2390059C758 /* Info.plist */,
 			);
@@ -146,6 +149,7 @@
 			files = (
 				E678A17D20D8D24C0059C758 /* APTStringExtension.swift in Sources */,
 				E678A17F20D8D24C0059C758 /* APTColorExtension.swift in Sources */,
+				E678A18820DF5FA00059C758 /* APTImageExtension.swift in Sources */,
 				E678A18020D8D24C0059C758 /* APTViewExtension.swift in Sources */,
 				E678A17E20D8D24C0059C758 /* APTTextFieldExtension.swift in Sources */,
 			);
