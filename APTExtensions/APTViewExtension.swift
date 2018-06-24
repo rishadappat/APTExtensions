@@ -195,27 +195,30 @@ extension UIView
         }
     }
     
-    func addBorder(edge: UIRectEdge, color: UIColor, thickness: CGFloat) {
+    func addBorder(edges: [UIRectEdge]) {
         
         let border = CALayer();
         
-        switch edge {
-        case UIRectEdge.top:
-            border.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: thickness)
-            break
-        case UIRectEdge.bottom:
-            border.frame = CGRect(x:0, y:self.frame.height - thickness, width:self.frame.width, height:thickness)
-            break
-        case UIRectEdge.left:
-            border.frame = CGRect(x:0, y:0, width: thickness, height: self.frame.height)
-            break
-        case UIRectEdge.right:
-            border.frame = CGRect(x:self.frame.width - thickness, y: 0, width: thickness, height:self.frame.height)
-            break
-        default:
-            break
+        for edge in edges
+        {
+            switch edge {
+            case UIRectEdge.top:
+                border.frame = CGRect(x: 0, y: 0, width: self.frame.width, height: self.borderWidth)
+                break
+            case UIRectEdge.bottom:
+                border.frame = CGRect(x:0, y:self.frame.height - self.borderWidth, width:self.frame.width, height:self.borderWidth)
+                break
+            case UIRectEdge.left:
+                border.frame = CGRect(x:0, y:0, width: self.borderWidth, height: self.frame.height)
+                break
+            case UIRectEdge.right:
+                border.frame = CGRect(x:self.frame.width - self.borderWidth, y: 0, width: self.borderWidth, height:self.frame.height)
+                break
+            default:
+                break
+            }
         }
-        border.backgroundColor = color.cgColor;
+        border.backgroundColor = self.borderColor!.cgColor;
         
         self.layer.addSublayer(border)
     }
