@@ -68,7 +68,7 @@ extension UITextField
     public var placeHolderColor: UIColor
     {
         get {
-            return UIColor.white
+            return UIColor.darkGray
         }
         set {
             attributedPlaceholder = NSAttributedString(string: placeholder!, attributes: [NSAttributedStringKey.foregroundColor: newValue])
